@@ -1,0 +1,41 @@
+.sidebar-list-item {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.light-item {
+  color: #1e293b;
+}
+
+.dark-item {
+  color: #ffffff;
+}
+
+.light-active {
+  color: #1e293b;
+  background-color: #f1f5f9;
+  font-weight: 600;
+}
+
+.dark-active {
+  color: #ffffff;
+  background-color: #424242;
+  font-weight: 500;
+}
+
+.light-icon {
+  color: #424242;
+}
+
+.dark-icon {
+  color: #616e7c;
+}
+
+.active-icon {
+  color: #ff0000;
+}

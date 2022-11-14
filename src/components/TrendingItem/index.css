@@ -1,0 +1,46 @@
+.list-trending-item {
+  list-style-type: none;
+  width: 250px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: flex-start;
+  width: 80%;
+  padding-top: none;
+  margin-bottom: 20px;
+}
+
+.trending-thumbnail-image {
+  width: 300px;
+  height: 230px;
+  background-size: cover;
+}
+
+.trending-para-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.channel-light-para {
+  font-family: Roboto;
+  color: #212121;
+}
+
+.channel-dark-para {
+  font-family: Roboto;
+  color: white;
+}
+
+.channel-light-name {
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.channel-dark-name {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}

@@ -1,0 +1,46 @@
+.gaming-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 280px;
+  margin-bottom: 30px;
+  margin-right: 70px;
+  flex-grow: 1;
+  text-decoration: none;
+}
+
+.gaming-thumbnail {
+  width: 100%;
+}
+
+.game-title {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #1e293b;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.game-para {
+  color: #94a3b8;
+  font-size: 15px;
+}
+
+.game-light-heading {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #1e293b;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.game-dark-heading {
+  font-family: Roboto;
+  font-size: 15px;
+  color: white;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}

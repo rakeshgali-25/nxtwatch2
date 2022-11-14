@@ -1,0 +1,135 @@
+.display-container {
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-input-light {
+  padding: 10px;
+  width: 600px;
+  background-color: #ffffff;
+  outline: none;
+  border: 1px solid grey;
+}
+
+.search-input-dark {
+  padding: 10px;
+  width: 600px;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid grey;
+}
+
+.below-home-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f1f1f1;
+  overflow-y: scroll;
+}
+
+.light-heading {
+  color: #181818;
+}
+.dark-heading {
+  color: #f1f1f1;
+}
+
+.search-icon {
+  height: 100%;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #94a3b8;
+}
+
+.failure-image {
+  height: 400px;
+}
+
+.light-home-bg {
+  background-color: #f1f1f1;
+}
+
+.dark-home-bg {
+  background-color: #181818;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.failure-para {
+  color: #94a3b8;
+}
+
+.retry-button {
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  font-family: Roboto;
+  border-radius: 10px;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.un-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: transparent;
+  padding-left: 0px;
+}
+
+.light-bg {
+  background-color: black;
+  color: grey;
+}
+
+.display-home-container-dark {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.display-home-container-light {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: black;
+  box-sizing: border-box;
+  margin: 0px;
+}

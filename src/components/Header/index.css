@@ -1,0 +1,26 @@
+.body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.profile-header {
+  height: 60px;
+  border: none;
+}
+
+.theme-button-light {
+  background-color: transparent;
+  height: 50px;
+  font-size: 25px;
+  width: 50px;
+  border: 0px;
+}
+
+.theme-button-dark {
+  background-color: transparent;
+  height: 50px;
+  font-size: 25px;
+  width: 50px;
+  color: white;
+  border: 0px;
+}

@@ -1,0 +1,76 @@
+.trending-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 100px;
+  background-color: #f1f1f1;
+}
+
+.display-container {
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.below-trending-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.trending-icon {
+  background-color: #e2e8f0;
+  height: 50px;
+  width: 60px;
+}
+
+.loader-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending-icon {
+  color: rgb(179, 35, 35);
+
+  font-size: 30px;
+
+  margin-left: 30px;
+}
+
+.un-gaming-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.light-gaming-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 100px;
+  background-color: #f1f1f1;
+}
+
+.dark-gaming-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  height: 100px;
+  background-color: #323232;
+}
